@@ -1,0 +1,8 @@
+# jev-suggest bundle patch: inserts the next-action suggestion plugin.
+# Install standalone: `dsh plugin --profile <name> add link:<repo>`
+# The single row mounts BOTH halves: the host side (session collectors + the
+# two-step suggestion pipeline + the /api/jev-suggest routes) and the
+# browser side (the suggestion chips above the composer card).
+- insert:
+    - id: jev-suggest
+      name: '@runzhi214/dsh-jev-suggest'

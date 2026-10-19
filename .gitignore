@@ -1,0 +1,9 @@
+node_modules/
+lib/
+dist/
+*.tsbuildinfo
+.env
+.DSH_HOME/
+coverage/
+.coverage-times.json
+packed/

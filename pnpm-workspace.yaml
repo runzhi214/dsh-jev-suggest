@@ -1,0 +1,3 @@
+# Settings home for pnpm 11 (single-package repo: no `packages` field).
+allowBuilds:
+  esbuild: true
